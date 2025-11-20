@@ -1,0 +1,123 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.roboto-mostafiz {
+  font-family: "Roboto", serif;
+}
+.a{
+  color: aquamarine;
+  height:"50%";
+  width:"90%";
+}
+.nav {
+  background-color: rgb(5, 56, 123);
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.wel {
+  text-align: center;
+}
+
+.form_login {
+  height: 30vh;
+  width: 80vh;
+  background-color: antiquewhite;
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+.aa {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+.input {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  height: 10vh;
+}
+
+.button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.register {
+  height: 70vh;
+  width: 80vh;
+  background-color: antiquewhite;
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+.from_to {
+  display: flex;
+  height: 10vh;
+  width: 100vh;
+  background-color: antiquewhite;
+  margin-left: 60vh;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.in {
+  height: 50px;
+  width: 50vh;
+  padding: 5px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.b {
+  padding: 5px;
+}
+
+.c {
+  margin-top: 10px;
+  font: 10px;
+  align-items: center;
+  height: 5vh;
+  background-color: antiquewhite;
+  margin-left: 105vh;
+  padding: 10px;
+  width: 40vh;
+  border-radius: 10px;
+}
+
+.payment_container {
+  height: 50vh;
+  width: 50vh;
+  background-color: #cdc7d2;
+  margin-top: 5px;
+  margin-left: 40%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  /* Makes items align along the Y-axis */
+  align-items: center;
+  /* Centers items horizontally */
+  justify-content: center;
+  /* Centers items vertically */
+  height: 45vh;
+  /* Full viewport height for vertical alignment */
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-details {
+  margin: 10px;
+  padding: 10px;
+}
