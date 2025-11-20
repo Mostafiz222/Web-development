@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <button class="aa" href="#Home">Home</button>
+        <button class="aa" href="#About">About</button>
+        <button class="aa" href="#Contact">Contact</button>
+    </nav>
+    <div class="wel">
+        <h1>Welcome</h1>
+    </div>
+    <div class="bb">
+        <h1>Discover the fascinating world of Operating System Scheduling Algorithms</h1>
+    </div>
+    <section class="select">
+        <!-- <h1 class="cc">Select Algorithms:</h1> -->
+        <!-- <div class="dropdown">
+            <button class="dropbtn">Select Algorithms</button>
+            <div class="dropdown-content">
+              <button><a href="#" onclick="fcfs()">First Come First Serve</a></button>
+              <button><a href="#" onclick="sjp()">Shortest Job First</a></button>
+              <button><a href="#" onclick="srtf()">Shortest Remaining Time First</a></button>
+              <button><a href="#" onclick="round()">Round Robin CPU Scheduling</a></button>
+            </div>
+          </div> -->
+        <div class="n">
+            <label for="numberInput">Enter number of Processes: </label>
+            <input type="number" class ="box1" placeholder="  Enter positive number"  id="numberInput"  />
+            <button class="gen" onclick="Gen()">Generate Inputs</button>
+        </div>
+        <div class="n">
+            <label for="numberInput">Enter Arrival time: </label>
+            <input type="number" class ="box1"   id="arrive" placeholder="  Enter positive number"  />
+            <button  class="gen" onclick="Arrive()">Next</button>
+        </div>
+        <div class="output" id="output">
+            <div class="show">Show output of Arrival time</div>
+        </div>
+        <div class="n">
+            <label for="numberInput">Enter Burst time: </label>
+            <input type="number" class ="box1"  id="burst" placeholder="  Enter positive number" />
+            <button  class="gen" onclick="Burst()">Next</button>
+        </div>
+        <div class="output" id="outputt">
+            <div class="show">Show output of Burst time</div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Select Algorithms</button>
+            <div class="dropdown-content">
+              <button><a href="#" onclick="fcfs()">First Come First Serve</a></button>
+              <button><a href="#" onclick="sjp()">Shortest Job First</a></button>
+              <button><a href="#" onclick="srtf()">Shortest Remaining Time First</a></button>
+              <button><a href="#" onclick="roundRobin()">Round Robin CPU Scheduling</a></button>
+            </div>
+          </div>
+          <div class="output" id="answer">
+            <div class="show">Show output of Grantchart</div>
+        </div>
+        <div class="output" id="com">
+            <div class="show">Show output of completion time</div>
+        </div>
+        <div class="output" id="turn">
+            <div class="show">Show output of turnaround time</div>
+        </div>
+        <div class="output" id="res">
+            <div class="show">Show output of response time</div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
